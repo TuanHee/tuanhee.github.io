@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply bg-white rounded-md shadow-sm p-1.5 mb-2.5;
+}
+
+.card .card-body {
+    @apply bg-gray-100 rounded-md p-1.5;
+}
